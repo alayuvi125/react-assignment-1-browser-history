@@ -1,0 +1,78 @@
+.list-item-container {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  max-width: 1100px;
+}
+
+.time {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-right: 30px;
+  text-align: start;
+}
+
+.image-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.title {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.domain-url {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.inner-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  outline: none;
+  border-style: none;
+}
+
+.title-domain-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+}
+
+.inner-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 950px;
+}
